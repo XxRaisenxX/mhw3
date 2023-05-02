@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  #album-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #album-view img {
+    max-width: 100%;
+  }

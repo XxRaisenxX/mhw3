@@ -1,0 +1,80 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+@media (max-width: 700px){
+    body{
+        width: 95%;
+    }
+    header div span{
+        display:none;
+    }
+ 
+}
+@media (max-width: 500px){
+article .choice-grid div{
+    width: calc(49% - 22px);
+}
+
+}
+
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+
+
+    
+}
+.choice-grid div{
+ width: calc(32.5% - 22px);
+ background-color: #f4f4f4;
+ opacity: 0.6;
+ margin-bottom: 20px;
+ padding:10px;
+ border:solid;
+ border-color: #dcdcdc;
+ border-width: 1px;
+ display: flex;
+ flex-direction: column;
+}
+div.overlay{
+    background-color: #cfe3ff;
+    opacity: 1;
+}
+.question-name{
+    background-repeat: no-repeat;
+}
+#risposta{
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+.hidden{
+    display:none;
+}
+
+#Title{
+    margin-bottom: 18px;
+}
+#Contents{
+    margin-bottom:18px;
+}
+
+button{
+    height:50px;
+    width:100%;
+    text-align:center;
+    font-size:32px;
+    background-color: #cecece;
+}
+button:hover{
+    background-color:#e0e0e0;
+}
+
+
+
+
+
+
+
