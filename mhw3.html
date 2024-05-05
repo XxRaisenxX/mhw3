@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIRED - Alessandro Andronico 1000016199</title>
+    <link rel="stylesheet" href="mhw3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="mhw3.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="spotify.js"></script>
+</head>
+
+<body>
+    <!--SEZIONE DELLA NAVBAR-->
+    <nav>
+        <img src="Wired_Logo.png" alt="">
+        <div class="nav-links">
+            <a href="https://www.wired.com/category/security/">SECURITY</a>
+            <a href="https://www.wired.com/category/politics/">POLITICS</a>
+            <a href="https://www.wired.com/category/gear/">GEAR</a>
+            <a href="https://www.wired.com/category/backchannel/">BACKCHANNER</a>
+            <a href="https://www.wired.com/category/business/">BUSINESS</a>
+            <a href="https://www.wired.com/category/science/">SCIENCE</a>
+            <a href="https://www.wired.com/category/culture/">CULTURE</a>
+            <a href="https://www.wired.com/category/ideas/">IDEAS</a>
+        </div>
+        <div class="user">
+            <a href="#">SIGN IN</a>
+            <div class="separator"></div>
+            <button id="SubscribeButton">SUBSCRIBE</button>
+        </div>
+    </nav>
+    <hr>
+    
+    <div class="news">
+        <h1>MAGAZINE</h1>
+        <div class="news-content">
+            <a href="https://www.wired.com/story/mayor-of-london-sadiq-khan-ulez-conspiracy/">
+                <img src="Notizia_Grande.jpg" alt="">
+            </a>
+            <div class="news-text">
+                <a href="https://www.wired.com/story/mayor-of-london-sadiq-khan-ulez-conspiracy/">THE MAYOR OF LONDON
+                    ENTERS THE BULLSHIT CINEMATIC <br>UNIVERSE</a>
+                <span>Peter Gust</span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="other_news">
+        <div class="row">
+            <div class="column">
+                <!-- Resto del codice HTML rimane invariato -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Aggiunta del form per la ricerca -->
+    <form id="newsForm">
+        <input type="text" id="newsInput" placeholder="Cerca notizie su Wikipedia">
+        <button type="submit">Cerca</button>
+    </form>
+
+    <!--CONTENITORE PER LE NOTIZIE-->
+    <div id="searchResults"></div>
+    <hr>
+    <!--FINE CONTENITORE PER LE NOTIZIE-->
+
+    <!--CONTENITORE PER LA RIPRODUZIONE DI SPOTIFY-->
+    <form id="music">
+        <label for="author">inserisci il nome del potcast</label>
+        <input type="text" id="author" placeholder="nome del potcast">
+        <input type="submit" id="submit" value="Cerca"> 
+    </form>
+
+    <div id="song"></div>
+    <section id="album-view"></section>
+
+
+    </div>
+    <section class="footer">
+        <div class="footer-content">
+            <img src="Wired_Logo.png" alt="Wired_Logo" class="wired-logo">
+            <p class="footer-text">WIRED is where tomorrow is realized. It is the essential source of information and
+                ideas that make sense of a world in <br>constant transformation. The WIRED conversation illuminates how technology
+                is changing every aspect of our lives—<br>culture to business, science to design. The breakthroughs and
+                innovations that we uncover lead to new ways of <br>thinking, new connections, and new industries.</p>
+
+                <hr class="footer-line">
+        </div>
+    </section>
+
+</body>
+
+</html>

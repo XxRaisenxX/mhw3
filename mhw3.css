@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.nav-links a,
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+img {
+    margin-top: 5px;
+    width: 150px;
+}
+
+hr {
+    margin: 20px 0;
+    opacity: 50%;
+}
+
+.user{
+    display: flex;
+}
+
+.user button {
+    margin-left: 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.separator {
+    border-left: 1px solid black;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.news {
+    text-align: left;
+    margin-top: 115px;
+}
+
+.news h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.news-content {
+    display: flex;
+}
+
+.news img {
+    width: 970px;
+    height: 550px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.news-text a {
+    text-align: left;
+    font-size: 35px;
+}
+
+.news a:hover {
+    text-decoration: underline;
+}
+
+.news-text span {
+    display: flex;
+   text-align: left;
+   font-family: 'Montserrat', 'Space Mono';
+   
+}
+
+.other_news {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.other_news .row {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.other_news .column {
+    margin-bottom: 50px;
+    margin: 10px 0; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.other_news img {
+    width: 300px;
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wired-logo {
+    width: 100px; 
+    height: auto;
+}
+
+.footer-text {
+    font-size: 10px; 
+    color: white; 
+    margin-top: 30px; 
+}
+
+.footer-line {
+    width: 100%; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid white; 
+}
+
+.other_news .column a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none; 
+    color: black; 
+}
+
+.other_news .column img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+
+.other_news .column h3 {
+    font-size: 16px; 
+    margin: 0; 
+    color: black; 
+}
+
+
+
